@@ -9,11 +9,7 @@ commits, issue tracking, online editing, automatic linting of files, building co
 ![Icon](./toolchain-flow.png)
 
 ### To get started, click this button:
-[![Create toolchain](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https%3A%2F%2Fgithub.com%2Fopen-toolchain%2Fsimple-helm-toolchain&env_id=ibm:yp:us-south)
-
-TEST 
-[![Create toolchain](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https%3A%2F%2Fgithub.com%2Fhmagph%2Fsecure-helm3-toolchain&env_id=ibm:yp:us-south)
-
+[![Create toolchain](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https%3A%2F%2Fgithub.com%2Fopen-toolchain%2Fsecure-helm3-toolchain&env_id=ibm:yp:us-south)
 
 ### Use it with your own application:
 This template assumes an application (e.g. [hello-helm](https://github.com/open-toolchain/hello-helm)) structured like this  :
@@ -25,7 +21,7 @@ It implements the following best practices:
 - build container image on every Git commit,
 - use a private image registry to store the built image, automatically configure access permissions for target cluster deployment using API tokens than can be revoked,
 - check container image for security vulnerabilities,
-- use a Helm chart to conduct the deployment of each release, abstracting away continuous integration via Helm command parameters. Reuse existing Tiller (Helm server) if detected, install it if missing (allowing to control Helm version via env property in pipeline)
+- use a Helm chart to conduct the deployment of each release, abstracting away continuous integration via Helm command parameters. Allowing to control Helm version via env property in pipeline (HELM_VERSION)
 - use an explicit namespace in cluster to insulate each deployment (and make it easy to clear, by "kubectl delete namespace"),
 
 ![Icon](./pipe.png)
