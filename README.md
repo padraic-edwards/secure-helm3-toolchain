@@ -1,15 +1,19 @@
-# ![Icon](./.bluemix/secure-lock-helm.png) Develop a Kubernetes app with Helm
+# ![Icon](./.bluemix/secure-lock-helm.png) Develop a Kubernetes app with Helm 3
 
 
 ### Continuously deliver a secure Docker app to a Kubernetes Cluster using a Helm Chart
-This Hello World application uses Docker, Kubernetes and Helm in a DevOps toolchain preconfigured for 
+This Hello World application uses Docker, Kubernetes and Helm 3 in a DevOps toolchain preconfigured for 
 continuous delivery to the IBM Kubernetes Service. It automates numerous tasks such automatic triggering from Git
-commits, issue tracking, online editing, automatic linting of files, configuration of target cluster permissions to private image registry, etc... through a preconfigured Delivery Pipeline.
+commits, issue tracking, online editing, automatic linting of files, building container image, image vulnerability scanning, configuration of target cluster permissions to private image registry, etc... through a preconfigured Delivery Pipeline.
 
 ![Icon](./toolchain-flow.png)
 
 ### To get started, click this button:
 [![Create toolchain](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https%3A%2F%2Fgithub.com%2Fopen-toolchain%2Fsimple-helm-toolchain&env_id=ibm:yp:us-south)
+
+TEST 
+[![Create toolchain](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https%3A%2F%2Fgithub.com%2Fhmagph%2Fsecure-helm3-toolchain&env_id=ibm:yp:us-south)
+
 
 ### Use it with your own application:
 This template assumes an application (e.g. [hello-helm](https://github.com/open-toolchain/hello-helm)) structured like this  :
@@ -30,7 +34,7 @@ It implements the following best practices:
 ### Learn more 
 
 * Blog [Continuously deliver your app to Kubernetes with IBM Cloud](https://admin.blogs.prd.ibm.event.ibm.com/blogs/bluemix/?p=114624&preview=1&_ppp=ac27c51c93)
-* [Step-by-step tutorial](https://www.ibm.com/cloud/garage/tutorials/tc-simple-kube-helm)
+* TODO update [Step-by-step tutorial](https://www.ibm.com/cloud/garage/tutorials/tc-simple-kube-helm)
 * [Getting started with IBM Cloud clusters](https://cloud.ibm.com/docs/containers/container_index.html?pos=2)
 * [Getting started](https://cloud.ibm.com/devops/getting-started) with toolchains
 * [Documentation](https://cloud.ibm.com/docs/services/ContinuousDelivery/index.html?pos=2)
