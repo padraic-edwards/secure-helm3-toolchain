@@ -5,21 +5,25 @@ inputs:
     service: ${PIPELINE_REPO}
     path: .pipeline
   - type: git
-    branch: tkn_v1beta1
+    branch: master
     service: ${TEKTON_CATALOG_REPO}
     path: git
   - type: git
-    branch: tkn_v1beta1
+    branch: master
     service: ${TEKTON_CATALOG_REPO}
     path: container-registry
   - type: git
     service: ${TEKTON_CATALOG_REPO}
-    branch: tkn_v1beta1
+    branch: master
     path: kubernetes-service
   - type: git
     service: ${TEKTON_CATALOG_REPO}
-    branch: tkn_v1beta1
+    branch: master
     path: toolchain
+  - type: git
+    service: ${TEKTON_CATALOG_REPO}
+    branch: master
+    path: devops-insights
   - type: git
     branch: trialv1
     service: ${TEKTON_CATALOG_REPO}
@@ -31,7 +35,15 @@ inputs:
   - type: git
     branch: trialv1
     service: ${TEKTON_CATALOG_REPO}
-    path: temp/unit-tests
+    path: temp/tests
+  - type: git
+    branch: trialv1
+    service: ${TEKTON_CATALOG_REPO}
+    path: temp/toolchain
+  - type: git
+    branch: trialv1
+    service: ${TEKTON_CATALOG_REPO}
+    path: temp/utils
 triggers:
   - type: manual
     name: Manual Trigger
