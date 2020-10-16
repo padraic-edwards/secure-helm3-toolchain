@@ -122,7 +122,11 @@
                 "title": {
                     "$ref": "#/messages/deploy.containerregRegion"
                 }
-            }, {
+            },
+                {
+                "type":"separator"      
+                }, 
+               {
                 "type": "label",
                 "title": ""
             }, {
@@ -159,10 +163,7 @@
                 }, {
                     "type": "label",
                     "title": ""
-                },
-                {
-                "type":"separator"      
-                },     
+                },    
                 {
                     "type": "label",
                     "title": {
