@@ -105,7 +105,10 @@
                 "$ref": "#/messages/deploy.appName"
             },
             "key": "app-name"
-        }, {
+        },
+                {
+                "type":"separator"      
+                },  {
             "type": "password",
             "readonly": false,
             "title": {
@@ -123,9 +126,6 @@
                     "$ref": "#/messages/deploy.containerregRegion"
                 }
             },
-                {
-                "type":"separator"      
-                }, 
                {
                 "type": "label",
                 "title": ""
