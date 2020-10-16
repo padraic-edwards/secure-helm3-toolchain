@@ -161,6 +161,9 @@
                     "title": ""
                 },
                 {
+                "type":"separator"      
+                },     
+                {
                     "type": "label",
                     "title": {
                         "$ref": "#/messages/deploy.rg"
