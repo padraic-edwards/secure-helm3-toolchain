@@ -9,7 +9,7 @@ commits, issue tracking, online editing, automatic linting of files, building co
 ![Icon](./toolchain-flow.png)
 
 ### To get started, click this button:
-[![Create toolchain](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https%3A%2F%2Fgithub.com%2Fopen-toolchain%2Fsecure-helm3-toolchain&env_id=ibm:yp:us-south&branch=dual-template&pipeline_type=tekton)
+[![Create toolchain](https://cloud.ibm.com/devops/graphics/create_toolchain_button.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https%3A%2F%2Fgithub.com%2Fopen-toolchain%2Fsecure-helm3-toolchain&env_id=ibm:yp:us-south&branch=pipeline_type=tekton)
 
 ### Use it with your own application:
 This template assumes an application (e.g. [hello-helm](https://github.com/open-toolchain/hello-helm)) structured like this  :
