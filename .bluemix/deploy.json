@@ -49,7 +49,7 @@
         },
         "prod-region": {
             "description": {
-                "$ref": "#/messages/deploy.regionDescription"
+                "$ref": "#/messages/region"
             },
             "type": "string",
             "disabled": false,
@@ -60,7 +60,7 @@
         },
         "prod-resource-group": {
             "description": {
-                "$ref": "#/messages/deploy.rgDescription"
+                "$ref": "#/messages/deploy.rg"
             },
             "type": "string",
             "validator": {
@@ -70,7 +70,7 @@
         },
         "prod-cluster-name": {
             "description": {
-                "$ref": "#/messages/deploy.clusterNameDescription"
+                "$ref": "#/messages/deploy.cluster"
             },
             "type": "string",
             "pattern": "\\S",
